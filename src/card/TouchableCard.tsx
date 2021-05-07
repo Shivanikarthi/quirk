@@ -16,13 +16,13 @@ export const TouchableCardContainer = ({
   <TouchableOpacity
     onPress={onPress}
     style={{
-      backgroundColor: "white",
-      borderColor: theme.lightGray,
-      borderBottomWidth: 2,
-      borderRadius: 8,
-      borderWidth: 1,
-      marginBottom: 18,
-      flex: 1,
+      backgroundColor: "blue",
+      borderColor: theme.lime,
+      borderBottomWidth: 3,
+      borderRadius: 9,
+      borderWidth: 2,
+      marginBottom: 19,
+      flex:2,
       ...style,
     }}
   >
@@ -81,14 +81,14 @@ export const CardTitleAndSubtitleContent = ({ title, subtitle }) => (
   >
     <SubHeader
       style={{
-        fontSize: 16,
+        fontSize: 17,
       }}
     >
       {title}
     </SubHeader>
     <HintHeader
       style={{
-        fontSize: 14,
+        fontSize: 20,
         marginBottom: 0,
       }}
     >
@@ -161,7 +161,7 @@ export const CardAttentionDot = () => (
       width: 18,
       height: 18,
       zIndex: 999,
-      borderRadius: 18,
+      borderRadius: 19,
       alignSelf: "flex-end",
     }}
   />
